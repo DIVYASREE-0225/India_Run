@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Data — large inputs are not committed; see README for how to obtain them
+data/candidates.jsonl
+data/candidates.jsonl.gz
+data/_uploaded.jsonl
+*.jsonl
+!data/sample.jsonl
+
+# Outputs
+submission.csv
+team_redrob.csv
+
+# Model cache is large (~90MB). Either commit via git-lfs or regenerate with
+# `python fetch_model.py`. Ignored by default.
+artifacts/minilm/
+
+# OS
+.DS_Store

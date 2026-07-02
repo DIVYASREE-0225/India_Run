@@ -1,0 +1,81 @@
+# Redrob Hackathon — Submission Metadata
+# Mirror of the portal metadata. Fill team identity before submitting.
+
+team_name: "REPLACE_ME"
+
+primary_contact:
+  name: "REPLACE_ME"
+  email: "replace@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "REPLACE_ME"
+    email: "replace@example.com"
+    role: "ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/REPLACE_ME/redrob-ranker"
+sandbox_link: "https://huggingface.co/spaces/REPLACE_ME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "MacBook Pro (Apple Silicon)"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.0"
+  os: "macOS 15"
+  uses_gpu_for_inference: false          # CPU only
+  has_network_during_ranking: false      # fully offline; model loaded from local cache
+  pre_computation_required: true         # one-time model fetch (python fetch_model.py)
+  pre_computation_time_minutes: 1        # ~1 min to download the 90MB encoder once
+
+# ============================================================================
+# AI tools declaration (transparency only)
+# ============================================================================
+ai_tools_used:
+  - "Claude"        # architecture discussion, code review, scaffolding
+
+ai_usage_summary: |
+  Used Claude (Claude Code) for architecture discussion, adversarial code review
+  of the ranking logic, and drafting. All design decisions — the role-gate
+  anti-stuffer strategy, the honeypot detection rules, the multiplicative
+  behavioral modifier, and the two-stage hybrid pipeline — were human-directed
+  and grounded in direct analysis of the candidate dataset. No candidate data
+  was sent to any hosted LLM, and the ranking step itself makes zero network
+  calls (a hard requirement we verified).
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Two-stage hybrid ranker. Stage A scores all 100K candidates with interpretable
+  rules (role/title gate, trust-weighted skill coverage, a production-evidence
+  signal that reads career prose for demonstrated retrieval/ranking work, an
+  experience band, location, education) plus a BM25 lexical fit against a
+  canonical JD query. Stage B dense-re-ranks the top ~4K survivors with a local
+  MiniLM bi-encoder for semantic fit beyond keywords. Components fuse additively
+  into an intrinsic-fit score, then are scaled by a multiplicative behavioral-
+  availability modifier (activity recency, recruiter response rate, interview
+  completion) and a keyword-stuffer penalty. Physically-impossible profiles
+  (duration > date span, expert-with-0-months) are hard-killed as honeypots.
+  The decisive signals: a title+career gate stops the dataset's keyword-stuffer
+  trap (AI skills on an HR/Accountant career cannot reach the top), and an
+  evidence signal rewards candidates who actually shipped ranking/recsys at
+  product companies over those who merely tag the skills — the JD's most explicit
+  instruction. The top-10 is stable under +/-25% weight perturbation. Runs in
+  ~75s for 100K on CPU, fully offline.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true       # explicit honeypot detector; verified 0 in top-100
+  reproduction_tested: true

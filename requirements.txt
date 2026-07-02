@@ -1,0 +1,14 @@
+# Redrob Ranker — pinned dependencies (CPU-only, no GPU)
+# Python 3.11.x
+numpy==2.4.6
+scipy==1.16.2
+scikit-learn==1.9.0
+
+# Semantic engine (CPU). Torch CPU wheel resolves automatically on macOS/arm64;
+# on Linux x86_64 install the CPU index explicitly:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+sentence-transformers==3.3.1
+
+# Sandbox demo app (optional; not needed for the ranking step)
+streamlit==1.40.2

@@ -1,0 +1,51 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,0.748658,"Recommendation Systems Engineer with 6.0y experience; 7 core AI/IR skills (embeddings, sentence transformers, retrieval, pinecone). profile semantically matches the JD; experience in the target band"
+CAND_0000001,2,0.476358,"Backend Engineer with 6.9y experience; 2 core AI/IR skills (rag, milvus). experience in the target band. but note: Toronto, Canada (outside India)"
+CAND_0000010,3,0.393510,"Data Engineer with 4.6y experience; 3 core AI/IR skills (rag, elasticsearch, bm25). experience in the target band. but note: London, UK (outside India)"
+CAND_0000014,4,0.375379,"Frontend Engineer with 8.4y experience; 3 core AI/IR skills (rag, faiss, opensearch). experience in the target band"
+CAND_0000015,5,0.366595,"Software Engineer with 5.4y experience; 2 core AI/IR skills (rag, qdrant). experience in the target band"
+CAND_0000048,6,0.338463,Mobile Developer with 9.7y experience; 1 core AI/IR skills (rag). experience in the target band
+CAND_0000023,7,0.328588,"Software Engineer with 3.7y experience; 1 core AI/IR skills (rag). but note: New York, USA (outside India)"
+CAND_0000032,8,0.312394,".NET Developer with 8.1y experience; 2 core AI/IR skills (embeddings, rag)"
+CAND_0000038,9,0.309731,"Java Developer with 6.7y experience; 2 core AI/IR skills (rag, weaviate). experience in the target band"
+CAND_0000035,10,0.308523,Full Stack Developer with 4.3y experience; 1 core AI/IR skills (rag)
+CAND_0000025,11,0.307282,Frontend Engineer with 7.3y experience; 1 core AI/IR skills (rag). experience in the target band
+CAND_0000027,12,0.298151,DevOps Engineer with 3.9y experience; 1 core AI/IR skills (rag). but note: experience outside the ideal band
+CAND_0000018,13,0.296207,Frontend Engineer with 6.6y experience; 1 core AI/IR skills (rag). experience in the target band
+CAND_0000043,14,0.285633,"Cloud Engineer with 8.3y experience; 3 core AI/IR skills (rag, opensearch, elasticsearch). but note: response rate 0.04, inactive recently, not open-to-work"
+CAND_0000011,15,0.275579,QA Engineer with 2.0y experience; 1 core AI/IR skills (rag). but note: experience outside the ideal band
+CAND_0000044,16,0.262383,Frontend Engineer with 5.7y experience; 1 core AI/IR skills (rag)
+CAND_0000007,17,0.248750,Civil Engineer with 5.5y experience; 0 core AI/IR skills
+CAND_0000021,18,0.245086,"Project Manager with 14.5y experience; 6 core AI/IR skills (embeddings, rag, pinecone, faiss). but note: experience outside the ideal band"
+CAND_0000020,19,0.226542,Mechanical Engineer with 6.3y experience; 0 core AI/IR skills. experience in the target band
+CAND_0000026,20,0.222572,Graphic Designer with 6.8y experience; 0 core AI/IR skills. experience in the target band
+CAND_0000030,21,0.218584,Marketing Manager with 10.0y experience; 0 core AI/IR skills. experience in the target band
+CAND_0000045,22,0.215354,Project Manager with 12.2y experience; 0 core AI/IR skills
+CAND_0000024,23,0.211569,HR Manager with 7.5y experience; 0 core AI/IR skills
+CAND_0000016,24,0.211510,Accountant with 5.3y experience; 0 core AI/IR skills
+CAND_0000019,25,0.206291,Project Manager with 6.5y experience; 0 core AI/IR skills. experience in the target band
+CAND_0000039,26,0.204826,Marketing Manager with 3.9y experience; 0 core AI/IR skills
+CAND_0000033,27,0.201431,Graphic Designer with 8.6y experience; 0 core AI/IR skills
+CAND_0000041,28,0.200520,Operations Manager with 13.7y experience; 0 core AI/IR skills
+CAND_0000046,29,0.197406,"Mechanical Engineer with 7.8y experience; 0 core AI/IR skills. experience in the target band. but note: London, UK (outside India)"
+CAND_0000049,30,0.192180,"Mechanical Engineer with 11.8y experience; 0 core AI/IR skills. but note: Berlin, Germany (outside India)"
+CAND_0000050,31,0.190292,"Business Analyst with 13.5y experience; 0 core AI/IR skills. but note: response rate 0.42, inactive recently, not open-to-work; experience outside the ideal band"
+CAND_0000006,32,0.188271,"Business Analyst with 6.0y experience; 0 core AI/IR skills. experience in the target band. but note: Austin, USA (outside India)"
+CAND_0000005,33,0.186808,Accountant with 11.0y experience; 0 core AI/IR skills
+CAND_0000042,34,0.185264,"HR Manager with 5.0y experience; 0 core AI/IR skills. but note: Berlin, Germany (outside India)"
+CAND_0000029,35,0.181153,"Business Analyst with 7.2y experience; 0 core AI/IR skills. but note: response rate 0.12, inactive recently, not open-to-work"
+CAND_0000002,36,0.180714,Operations Manager with 12.5y experience; 0 core AI/IR skills
+CAND_0000004,37,0.170911,"Marketing Manager with 3.8y experience; 0 core AI/IR skills. but note: Sydney, Australia (outside India); experience outside the ideal band"
+CAND_0000036,38,0.166936,Project Manager with 11.3y experience; 0 core AI/IR skills
+CAND_0000022,39,0.151966,"Mechanical Engineer with 1.1y experience; 0 core AI/IR skills. but note: Sydney, Australia (outside India); experience outside the ideal band"
+CAND_0000008,40,0.145727,"Operations Manager with 3.6y experience; 0 core AI/IR skills. but note: response rate 0.42, inactive recently, not open-to-work; experience outside the ideal band"
+CAND_0000034,41,0.142024,"Business Analyst with 14.5y experience; 0 core AI/IR skills. but note: response rate 0.15, inactive recently, not open-to-work; experience outside the ideal band"
+CAND_0000017,42,0.140464,"Accountant with 12.3y experience; 0 core AI/IR skills. but note: response rate 0.27, inactive recently, not open-to-work"
+CAND_0000009,43,0.140085,"Mechanical Engineer with 11.0y experience; 0 core AI/IR skills. but note: response rate 0.53, inactive recently, not open-to-work; New York, USA (outside India)"
+CAND_0000037,44,0.136464,"Business Analyst with 14.3y experience; 0 core AI/IR skills. but note: Dubai, UAE (outside India)"
+CAND_0000047,45,0.114117,Project Manager with 2.4y experience; 0 core AI/IR skills. but note: experience outside the ideal band
+CAND_0000040,46,0.101697,"Customer Support with 1.6y experience; 0 core AI/IR skills. but note: response rate 0.46, inactive recently, not open-to-work; experience outside the ideal band"
+CAND_0000013,47,0.099208,"Civil Engineer with 1.1y experience; 0 core AI/IR skills. but note: Dubai, UAE (outside India); experience outside the ideal band"
+CAND_0000028,48,0.098067,"Operations Manager with 1.1y experience; 0 core AI/IR skills. but note: Dubai, UAE (outside India); experience outside the ideal band"
+CAND_0000012,49,0.088187,"Operations Manager with 1.1y experience; 0 core AI/IR skills. but note: response rate 0.16, inactive recently, not open-to-work; experience outside the ideal band"
+CAND_0000003,50,0.081393,"Customer Support with 1.1y experience; 0 core AI/IR skills. but note: Austin, USA (outside India); experience outside the ideal band"
